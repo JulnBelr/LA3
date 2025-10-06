@@ -1,0 +1,16 @@
+void setup() {
+  // put your setup code here, to run once:
+Serial.begin(9600);
+}
+
+void loop() {
+int V = analogRead(A0);
+float VA = V * (5.00 / 1023 );
+
+float I = ((5.00-VA)/10000);
+float R = (VA/I);
+Serial.print("Resistance = ");
+Serial.println(R);
+Serial.print("VA =");
+Serial.println(VA);
+}
