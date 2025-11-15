@@ -1,5 +1,4 @@
 /* 
-  Program Name: Analog Voltage Calculator
   Goal: This program reads an analog value from pin A0, converts it to
         the corresponding voltage (0–5V), and prints that voltage.
   Theme: Analog-to-digital conversion (ADC) and voltage calculation.
