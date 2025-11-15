@@ -1,5 +1,4 @@
 /* 
-  Program Name: Analog Sensor Reader (Raw Value)
   Goal: This program reads the raw analog value (0–1023) from pin A0 
         and displays it in the Serial Monitor.
   Theme: Analog input processing and basic sensor data display.
